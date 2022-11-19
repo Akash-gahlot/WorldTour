@@ -8,31 +8,31 @@ export default function Footer() {
           <span>Get connected with us on social networks:</span>
         </div>
         <div>
-          <a href="#" class="me-4 link-secondary">
+          <a href="https://www.facebook.com/akash.gahlot.355" class="me-4 link-secondary">
             <img
               src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_glyph_svg-512.png"
               alt="fb"
               width="40px"
             />
           </a>
-          <a href="#" class="me-4 link-secondary">
+          <a href="https://twitter.com/akashgahlot17?t=1a7cWGoAdZmIWTdwFciROw&s=08" class="me-4 link-secondary">
             <img
               src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-512.png"
-              alt="fb"
+              alt="twitter"
               width="40px"
             />
           </a>
-          <a href="#" class="me-4 link-secondary">
+          <a href="https://www.instagram.com/akashgahlot_?utm_source=qr" class="me-4 link-secondary">
             <img
               src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png"
-              alt="fb"
+              alt="insta"
               width="40px"
             />
           </a>
-          <a href="#" class="me-4 link-secondary">
+          <a href="https://mail.google.com/mail/" class="me-4 link-secondary">
             <img
               src="https://cdn0.iconfinder.com/data/icons/social-circle-3/72/Email-512.png"
-              alt="fb"
+              alt="mail"
               width="40px"
             />
           </a>
