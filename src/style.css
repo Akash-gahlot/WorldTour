@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#root {
+  border-radius: 2px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar {
+  display: flex;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.tour {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.list {
+  box-sizing: border-box;
+  margin: 3px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.card > img {
+  border-radius: 8px;
+}
+.image {
+  border-radius: 5px;
+}
+.card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-items {
+  margin: 30px;
+}
+a {
+  color: black;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: nowrap; overflow: auto */
+}
+.explore {
+  text-align: center;
+  size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(23, 38, 249);
+  font-weight: bolder;
+}
+.explore:hover {
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+}
+.nav-links {
+  display: inline;
+  justify-content: space-between;
+  position: -ms-page;
+}
+.nav-item {
+  font-weight: bold;
+}
+.reviews{
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin:30px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.reviewhover:hover .reviews{
+    visibility: visible;
+}
+
